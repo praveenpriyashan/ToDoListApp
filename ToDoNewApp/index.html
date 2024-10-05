@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>to do list</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script type="module" src="/main.js"></script>
+</head>
+<body>
+
+<div class="container ">
+    <div id="header-wrapper" class="d-flex justify-content-center align-items-center mt-2 gap-2 color:green">
+        <div id="icon" class="animate__heartBeat text-primary">
+            <i class="bi bi-list-task fs-1 "></i>
+        </div>
+        <h1>TO DO LIST APP</h1>
+    </div>
+
+  <div id="mood-wrapper" class="d-flex justify-content-center">
+      <div class="d-flex gap-2 pb-1">
+          <i class="bi bi-sun-fill"></i>
+          <div class="form-check form-switch d-flex justify-content-center">
+              <input id="mode" class="form-check-input" type="checkbox">
+          </div>
+          <i class="bi bi-moon-stars-fill"></i>
+      </div>
+  </div>
+    <hr>
+    <div id="main-wrapper" class="d-flex gap-2">
+        <div class="input-group flex-nowrap">
+            <input id="txt-box" type="text" class="form-control" placeholder="Add to do" aria-label="Username"
+                   aria-describedby="addon-wrapping">
+        </div>
+        <button id="btn-add" type="button" class="btn btn-primary">Add</button>
+    </div>
+
+    <div id="todo-wrapper">
+<!--        <div class="d-flex gap-2 mt-3 justify-content-between ">-->
+<!--            <label class="d-flex gap-2"><input id="chk-box" type="checkbox"> item 1</label>-->
+<!--            <i class="bi bi-trash"></i>-->
+<!--        </div>-->
+    </div>
+</div>
+
+</body>
+</html>
